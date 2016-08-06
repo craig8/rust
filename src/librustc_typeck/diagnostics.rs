@@ -2469,6 +2469,8 @@ extern crate collections;
 use collections::range::RangeArgument;
 
 impl<T> RangeArgument<T> for T { } // error
+
+fn main() {}
 ```
 
 To work around this, it can be covered with a local type, `MyType`:
